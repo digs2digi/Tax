@@ -1,0 +1,13 @@
+from django.contrib import admin
+from tax.online_payment.models import Tax_transaction,BackOffice_dummy,Accounts_dummy,Online_Transaction_dummy
+
+class TaxAdmin(admin.ModelAdmin):
+    list_display=('customer_id','account_number','transaction_id','date','amount_paid')
+    list_filter=['date']
+    search_fields=['customer_id','account_number','transaction_id','date',]
+    
+
+admin.site.register(Tax_transaction,TaxAdmin)
+admin.site.register(BackOffice_dummy)
+admin.site.register(Accounts_dummy)
+admin.site.register(Online_Transaction_dummy)
