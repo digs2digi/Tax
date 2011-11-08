@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<project name="" company="" manager="" phase="" project-start="20110910T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Working" description="A default working day"/>
+      <day-type id="1" name="Nonworking" description="A default non working day"/>
+      <day-type id="2" name="Use base" description="Use day from base calendar"/>
+    </day-types>
+    <calendar id="1" name="Default">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="1900" end="2000"/>
+          <interval start="2100" end="2130"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20110903" type="day-type" id="0"/>
+        <day date="20110910" type="day-type" id="0"/>
+        <day date="20110917" type="day-type" id="0"/>
+        <day date="20110924" type="day-type" id="0"/>
+      </days>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Project Plan" note="" work="10800" start="20110910T000000Z" end="20110913T193000Z" work-start="20110910T190000Z" percent-complete="100" priority="1" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20110911T000000Z"/>
+      <task id="2" name="MindMap" note="" work="3600" duration="3600" start="20110910T000000Z" end="20110910T200000Z" work-start="20110910T190000Z" percent-complete="100" priority="1" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20110910T000000Z"/>
+      </task>
+      <task id="3" name="Planner" note="" work="7200" start="20110912T000000Z" end="20110913T193000Z" work-start="20110912T190000Z" percent-complete="80" priority="1" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20110912T000000Z"/>
+      </task>
+    </task>
+    <task id="4" name="Requirement Analysis" note="" work="32400" start="20110914T000000Z" end="20110917T213000Z" work-start="20110914T190000Z" percent-complete="0" priority="1" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20110912T000000Z"/>
+      <task id="5" name="User Requirements(Functional Requirements,Non Functional Requirements)" note="" work="21600" start="20110914T000000Z" end="20110915T193000Z" work-start="20110914T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20110914T000000Z"/>
+      </task>
+      <task id="6" name="SRS" note="" work="10800" start="20110916T000000Z" end="20110917T213000Z" work-start="20110916T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20110916T000000Z"/>
+      </task>
+    </task>
+    <task id="7" name="Design" note="" work="27000" start="20110920T000000Z" end="20110921T194500Z" work-start="20110920T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20110921T000000Z"/>
+      <task id="8" name="System Design" note="" work="10800" start="20110920T000000Z" end="20110920T200000Z" work-start="20110920T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20110920T000000Z"/>
+      </task>
+      <task id="9" name="Detail Design" note="" work="16200" start="20110920T000000Z" end="20110921T194500Z" work-start="20110920T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20110920T000000Z"/>
+      </task>
+    </task>
+    <task id="10" name="Implementation" note="" work="75600" duration="75600" start="20110922T000000Z" end="20111010T213000Z" work-start="20110922T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+      <constraint type="must-start-on" time="20110922T000000Z"/>
+    </task>
+    <task id="11" name="Testing" note="" work="59400" duration="32400" start="20111015T000000Z" end="20111024T213000Z" work-start="20111017T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+      <constraint type="start-no-earlier-than" time="20110911T000000Z"/>
+      <task id="12" name="Unit Testing" note="" work="27000" duration="27000" start="20111015T000000Z" end="20111021T213000Z" work-start="20111017T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="start-no-earlier-than" time="20111015T000000Z"/>
+      </task>
+      <task id="13" name="Full Testing" note="" work="32400" duration="32400" start="20111016T000000Z" end="20111024T213000Z" work-start="20111017T190000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="start-no-earlier-than" time="20111016T000000Z"/>
+      </task>
+    </task>
+  </tasks>
+  <resource-groups default_group="1">
+    <group id="1" name="Members" admin-name="Sahil  Gupta" admin-phone="9779613335" admin-email="sahilgupta@iitrpr.ac.in"/>
+  </resource-groups>
+  <resources>
+    <resource group="1" id="1" name="Digvijay Singh" short-name="Digvijay" type="1" units="0" email="digvijays@iitrpr.ac.in" note="" std-rate="0" calendar="1"/>
+    <resource group="1" id="2" name="Shlok Chaurasia" short-name="Shlok" type="1" units="0" email="shlokch@iitrpr.ac.in" note="" std-rate="0"/>
+    <resource group="1" id="3" name="Betha Sandeep" short-name="Betha" type="1" units="0" email="sandeepb@iitrpr.ac.in" note="" std-rate="0" calendar="1"/>
+    <resource group="1" id="4" name="Manu Bharghav" short-name="Manu" type="1" units="0" email="manubhargav@gmail.com" note="" std-rate="0" calendar="1"/>
+  </resources>
+  <allocations>
+    <allocation task-id="13" resource-id="1" units="50"/>
+    <allocation task-id="11" resource-id="1" units="100"/>
+    <allocation task-id="10" resource-id="1" units="25"/>
+    <allocation task-id="9" resource-id="1" units="100"/>
+    <allocation task-id="1" resource-id="1" units="100"/>
+    <allocation task-id="3" resource-id="1" units="100"/>
+    <allocation task-id="7" resource-id="1" units="100"/>
+    <allocation task-id="5" resource-id="1" units="100"/>
+    <allocation task-id="4" resource-id="1" units="30"/>
+    <allocation task-id="12" resource-id="2" units="50"/>
+    <allocation task-id="11" resource-id="2" units="100"/>
+    <allocation task-id="10" resource-id="2" units="25"/>
+    <allocation task-id="8" resource-id="2" units="100"/>
+    <allocation task-id="5" resource-id="2" units="100"/>
+    <allocation task-id="1" resource-id="2" units="100"/>
+    <allocation task-id="2" resource-id="2" units="33"/>
+    <allocation task-id="7" resource-id="2" units="100"/>
+    <allocation task-id="4" resource-id="2" units="30"/>
+    <allocation task-id="12" resource-id="3" units="50"/>
+    <allocation task-id="11" resource-id="3" units="100"/>
+    <allocation task-id="10" resource-id="3" units="25"/>
+    <allocation task-id="9" resource-id="3" units="100"/>
+    <allocation task-id="8" resource-id="3" units="100"/>
+    <allocation task-id="1" resource-id="3" units="100"/>
+    <allocation task-id="2" resource-id="3" units="33"/>
+    <allocation task-id="7" resource-id="3" units="100"/>
+    <allocation task-id="5" resource-id="3" units="100"/>
+    <allocation task-id="4" resource-id="3" units="30"/>
+    <allocation task-id="13" resource-id="4" units="50"/>
+    <allocation task-id="11" resource-id="4" units="100"/>
+    <allocation task-id="10" resource-id="4" units="25"/>
+    <allocation task-id="8" resource-id="4" units="100"/>
+    <allocation task-id="1" resource-id="4" units="100"/>
+    <allocation task-id="2" resource-id="4" units="33"/>
+    <allocation task-id="7" resource-id="4" units="100"/>
+    <allocation task-id="6" resource-id="4" units="100"/>
+    <allocation task-id="4" resource-id="4" units="10"/>
+  </allocations>
+</project>

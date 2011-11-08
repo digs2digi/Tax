@@ -1,0 +1,52 @@
+<map version="0.9.0">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node BACKGROUND_COLOR="#ff0033" COLOR="#000066" CREATED="1315144076007" ID="ID_1114182080" MODIFIED="1315297613726" TEXT="Co-Operative Bank TAX section">
+<node BACKGROUND_COLOR="#9999ff" CREATED="1315144784938" ID="ID_705827789" MODIFIED="1315296952323" POSITION="left" TEXT="Online Payment of Direct Taxes">
+<cloud COLOR="#9999ff"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1315144784938" ID="ID_428967801" MODIFIED="1315297675864" TEXT="Fill Challans(available Online)"/>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1315144784938" ID="ID_634875717" MODIFIED="1315297669710" TEXT="Pay using Debit/Credit Card"/>
+</node>
+<node CREATED="1315145618180" HGAP="21" ID="ID_270999598" MODIFIED="1315156170885" POSITION="right" TEXT="Account come under Form 15G/15H (Tax exemption for depositor)">
+<cloud COLOR="#9999ff"/>
+</node>
+<node CREATED="1315156062470" ID="ID_1326159223" MODIFIED="1315297622118" POSITION="right" TEXT="Account that doesn&apos;t come under 15G">
+<cloud COLOR="#9999ff"/>
+<node CREATED="1315144991122" HGAP="59" ID="ID_464026540" MODIFIED="1315333241956" TEXT="Tax Details for an account" VSHIFT="-21">
+<cloud COLOR="#ffffff"/>
+<node CREATED="1315145354788" ID="ID_1158168052" MODIFIED="1315297210050" TEXT="Tax paid to ITO for the account on behalf of that account holder by the bank">
+<cloud COLOR="#9999ff"/>
+</node>
+<node CREATED="1315145367437" ID="ID_512380790" MODIFIED="1315297626816" TEXT="Details of all taxes for the year">
+<cloud COLOR="#9999ff"/>
+<node CREATED="1315144103574" ID="ID_1393677456" MODIFIED="1315297277817" TEXT="Service Tax">
+<cloud COLOR="#ffffff"/>
+<node CREATED="1315144187739" ID="ID_1357673561" MODIFIED="1315144196403" TEXT="Online Transactions"/>
+<node CREATED="1315145127767" ID="ID_1733025933" MODIFIED="1315152922098" TEXT="Cheques">
+<node CREATED="1315145154555" ID="ID_781466348" MODIFIED="1315145169208" TEXT="Cheque Bounce"/>
+<node CREATED="1315145174046" ID="ID_1121410311" MODIFIED="1315145184892" TEXT="Paid Cheques"/>
+</node>
+<node CREATED="1315145579758" ID="ID_37094229" MODIFIED="1315145596931" TEXT="ATM Transaction"/>
+</node>
+<node CREATED="1315144784938" ID="ID_1093564927" MODIFIED="1315297343042" TEXT="FBT(Fringe Benefit Tax)">
+<cloud COLOR="#ffffff"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1315144784938" ID="ID_1084919070" MODIFIED="1315297355056" TEXT="Banking Cash Transaction Tax">
+<cloud COLOR="#ffffff"/>
+</node>
+<node CREATED="1315299353611" ID="ID_1795648014" MODIFIED="1315299442091" TEXT="TDS">
+<cloud COLOR="#ffffff"/>
+<node CREATED="1315145490949" ID="ID_1714454983" MODIFIED="1315299521229" TEXT="Income Tax">
+<cloud COLOR="#9999ff"/>
+<node CREATED="1315145490949" ID="ID_943225834" MODIFIED="1315299504756" TEXT="Tax from Salary of Employees"/>
+<node CREATED="1315145490949" ID="ID_1359443785" MODIFIED="1315299504117" TEXT="Tax on Interest paid to customers"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#9999ff" CREATED="1315144784938" ID="ID_791501378" MODIFIED="1315156548767" POSITION="left" TEXT="Print Form 16A for a given Account (Yearly)">
+<cloud COLOR="#9999ff"/>
+</node>
+<node CREATED="1315333304195" ID="ID_349090036" MODIFIED="1315333325952" POSITION="right" TEXT="Mechanism to accept variable tax rates "/>
+</node>
+</map>

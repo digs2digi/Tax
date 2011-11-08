@@ -1,0 +1,21 @@
+USER STORIES:
+
+As a Customer:
+
+1.I should be able to see the details of all my taxes(Service Tax,FBT,TDS,BCTT) on the homepage of tax section in the form of 16A.
+2.I should be able to print all the above details.
+3.I should be able to file the 15G/15H forms on the page, if am eligible for the same.
+4.I should have the option of paying the direct taxes online.
+5.I want to view my tax paying history.
+
+
+As a bank:
+
+1.I should verify if the customer is eligible for the 15G/15H forms.
+2.I should deduct the appropriate service tax from the customers' accounts according to the service of the bank which he is using.
+3.I should be able to pay taxes to ITO on behalf of customer,like FBT,BCTT.
+
+As a tax collecting authority
+
+1) I should be able to confirm that the individual has payed the taxes.
+ 
